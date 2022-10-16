@@ -10,9 +10,15 @@ function Header({ logo }) {
       <img src={Logo} width="75px" />
       <Navigation />
       <div className="Social-Media">
-        <FaFacebook size="25px" />
-        <FaGithub size="25px" />
-        <FaReddit size="25px" />
+        <a href="https://www.facebook.com/Shubh3m/">
+          <FaFacebook size="25px" />
+        </a>
+        <a href="https://github.com/Shub3am">
+          <FaGithub size="25px" />
+        </a>
+        <a href="https://www.reddit.com/user/Shub3am">
+          <FaReddit size="25px" />
+        </a>
       </div>
     </div>
   );
