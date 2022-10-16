@@ -8,6 +8,8 @@ import {
   FaGrinBeam,
 } from "react-icons/fa";
 
+import { Link } from "react-router-dom";
+
 const Footer = () => {
   return (
     <div className="Footer-Section">
@@ -20,20 +22,31 @@ const Footer = () => {
             helping the world grow!
           </p>
           <div className="Header-Social">
-            <FaInstagram size="20px" />
+            <a href="https://instagram.com/shubham_codez">
+              <FaInstagram size="20px" />
+            </a>
             <FaFacebook size="20px" />
-            <FaTwitterSquare size="20px" />
-            <FaWhatsappSquare size="20px" />
+            <a href="https://twitter.com/Shubh3m">
+              <FaTwitterSquare size="20px" />
+            </a>
+            <a href="https://wa.me/917007937707">
+              <FaWhatsappSquare size="20px" />
+            </a>
           </div>
         </div>
         <div className="Footer-Section-2">
           <div className="Footer-Menu">
             <h2>Quick Navigation</h2>
             <ul>
-              <li> Home</li>
-              <li> Events</li>
-              <li> Registration</li>
-              <li> Contact Us</li>
+              <li>
+                <Link to="/"> Home</Link>
+              </li>
+              <li>
+                <Link to="/help">How We Can Help</Link>
+              </li>
+              <li>
+                <Link to="/contact">Contact</Link>
+              </li>
             </ul>
           </div>
         </div>

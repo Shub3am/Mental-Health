@@ -1,6 +1,12 @@
 * {
   font-family: "Poppins", sans-serif;
 }
+a:link {
+  color: black;
+}
+a:any-link {
+  color: black;
+}
 .Hero-Section {
   background: #141e30; /* fallback for old browsers */
   background: -webkit-linear-gradient(

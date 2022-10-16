@@ -1,7 +1,13 @@
 import React from "react";
-
+import Faq from "./Components/Faq/Faq";
+import Cures from "./Components/Cures/Cures";
 const Help = () => {
-  return <h1>Connected</h1>;
+  return (
+    <div>
+      <Faq />
+      <Cures />
+    </div>
+  );
 };
 
 export default Help;
