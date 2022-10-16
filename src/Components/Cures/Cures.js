@@ -9,7 +9,7 @@ const Cures = () => {
       <Container text>
         <Header as="h2">How We can Help!</Header>
         <p>
-          First, We Determine which mental illness you have Sometimes it's
+          First, We Determine which mental illness you have, Sometimes it's
           difficult to find out which mental illness may be causing your
           symptoms. But taking the time and effort to get an accurate diagnosis
           will help determine the appropriate treatment. The more information

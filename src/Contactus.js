@@ -27,7 +27,7 @@ const contact = () => {
         </div>
       </div>
       <div class="form">
-        <div class="title">Contact</div>
+        <div class="title">Consult Us</div>
         <div class="subtitle">Sunbeam Mental Health Club</div>
         <div class="input-container ic1">
           <input id="firstname" class="input" type="text" placeholder=" " />
