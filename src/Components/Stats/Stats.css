@@ -1,0 +1,19 @@
+.Stats {
+  margin: 2em 0;
+}
+
+.Stats h1 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2em;
+  /* font-size: 30px; */
+  text-transform: capitalize;
+  font-weight: 800;
+}
+
+.statistic {
+  border-right: 2px solid black;
+}
+.statistics :last-child {
+  border: none;
+}

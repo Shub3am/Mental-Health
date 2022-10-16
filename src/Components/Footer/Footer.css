@@ -1,0 +1,60 @@
+.Footer {
+  display: flex;
+  border-top: 1px solid black;
+  margin-top: 3em;
+  justify-content: space-around;
+  padding-bottom: 0.5em;
+}
+
+.Footer-Section-1 h1 {
+  padding: 1em 0 0 0;
+}
+
+.Footer-Section-1 p {
+  padding: 1em 0 1em 0;
+}
+.Footer-Section-2 h1 {
+  padding-bottom: 0.25em;
+}
+.Footer-Section-2 li {
+  list-style: none;
+  text-align: center;
+}
+.Footer-Section-2 {
+  padding: 1em 0 0 0;
+}
+
+.Footer-Section3 {
+  padding: 1em 0 0 0;
+}
+h2 {
+  text-align: center;
+}
+.Newsletter {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Footer-Section3 input {
+  border-radius: 0.5em;
+  padding: 0.5em;
+  margin: 0.5em;
+  text-align: center;
+}
+.submit {
+  background-color: black;
+  color: white;
+}
+.Copyright {
+  font-size: 15px;
+}
+
+.footer-copyright {
+  text-align: center;
+  background: white;
+  margin: 0;
+  font-size: 15px;
+  font-weight: 800;
+  padding: 10px 0;
+}

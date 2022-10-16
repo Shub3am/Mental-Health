@@ -1,0 +1,73 @@
+.Hero-Section {
+  height: 100vh;
+  color: white;
+}
+.Hero-Image {
+  margin-top: 5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (max-width: 768px) {
+  .Hero-Image img {
+    display: flex;
+    align-items: center;
+    width: 350px;
+  }
+  .Hero-Content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.floating {
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  margin-left: 30px;
+  margin-top: -30px;
+}
+@keyframes floating {
+  0% {
+    transform: translate(0, 0px);
+  }
+  50% {
+    transform: translate(0, 15px);
+  }
+  100% {
+    transform: translate(0, -0px);
+  }
+}
+
+.Hero-Content {
+  display: flex;
+  margin-top: 5em;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+.Hero-Content p {
+  width: 750px;
+  font-size: 15px;
+  text-align: center;
+}
+.Hero-Content h1 {
+  text-transform: capitalize;
+  font-size: 35px;
+  font-weight: 800;
+}
+
+.Hero-Image img {
+  margin-top: 3em;
+  filter: drop-shadow(0px 35px 35px rgba(0, 0, 0, 0.1));
+}
+.Hero-Icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 0.1em;
+  margin-top: -15px;
+}

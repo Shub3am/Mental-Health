@@ -1,0 +1,20 @@
+.Symptoms-Heading {
+  display: flex;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+}
+.Symptoms-Main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Symptoms-1 {
+  width: 800px;
+  /* font-size: 19px; */
+}
+
+.Symptoms-1 p {
+  font-size: 15px;
+}
