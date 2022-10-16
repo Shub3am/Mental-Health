@@ -15,9 +15,9 @@ const Footer = () => {
         <div className="Footer-Section-1">
           <h1>About Us</h1>
           <p>
-            We are are group of passionate readers
+            We are passionate developers
             <br />
-            helping the world learn!
+            helping the world grow!
           </p>
           <div className="Header-Social">
             <FaInstagram size="20px" />
@@ -27,7 +27,6 @@ const Footer = () => {
           </div>
         </div>
         <div className="Footer-Section-2">
-          {" "}
           <div className="Footer-Menu">
             <h2>Quick Navigation</h2>
             <ul>
