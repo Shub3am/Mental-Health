@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Shub3am/Hackcom-CF-25/static/css/main.2ca9bcbc.css",
-    "main.js": "/Shub3am/Hackcom-CF-25/static/js/main.c7bb86e4.js",
+    "main.js": "/Shub3am/Hackcom-CF-25/static/js/main.30385b42.js",
     "static/js/787.c188a3d3.chunk.js": "/Shub3am/Hackcom-CF-25/static/js/787.c188a3d3.chunk.js",
     "static/media/cognitive.png": "/Shub3am/Hackcom-CF-25/static/media/cognitive.2039626ca7d510e3de15.png",
     "static/media/brand-icons.svg": "/Shub3am/Hackcom-CF-25/static/media/brand-icons.6729d29753e000c17489.svg",
@@ -29,11 +29,11 @@
     "static/media/outline-icons.woff2": "/Shub3am/Hackcom-CF-25/static/media/outline-icons.687a4990ea22bb1a49d4.woff2",
     "index.html": "/Shub3am/Hackcom-CF-25/index.html",
     "main.2ca9bcbc.css.map": "/Shub3am/Hackcom-CF-25/static/css/main.2ca9bcbc.css.map",
-    "main.c7bb86e4.js.map": "/Shub3am/Hackcom-CF-25/static/js/main.c7bb86e4.js.map",
+    "main.30385b42.js.map": "/Shub3am/Hackcom-CF-25/static/js/main.30385b42.js.map",
     "787.c188a3d3.chunk.js.map": "/Shub3am/Hackcom-CF-25/static/js/787.c188a3d3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2ca9bcbc.css",
-    "static/js/main.c7bb86e4.js"
+    "static/js/main.30385b42.js"
   ]
 }
